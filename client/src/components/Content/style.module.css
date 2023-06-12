@@ -1,0 +1,38 @@
+.wrapper {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.block {
+  background: #ffffff;
+  border: 1px solid #eaebed;
+  border-radius: 12px;
+  width: 448px;
+  height: 136px;
+  padding: 3%;
+}
+
+.block h2 {
+  font: 600 20px "Inter";
+  color: #5e96fc;
+  margin-bottom: 5%;
+}
+.block p {
+  font: 400 16px "Inter";
+  color: #232134;
+  margin-bottom: 5%;
+}
+
+.flex{
+    display: flex;
+}
+
+.icon{
+    background-image: url(./assets/M.svg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 2%;
+}

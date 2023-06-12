@@ -1,0 +1,20 @@
+.wrapper {
+  margin-top: 10%;
+  display: flex;
+
+}
+
+.inp {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #eaebed;
+  border-radius: 8px;
+}
+
+.btn {
+  position: relative;
+  right: 30px;
+  height: 32px;
+  background: #5e96fc;
+  border-radius: 8px;
+}
