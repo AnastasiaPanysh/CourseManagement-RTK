@@ -2,37 +2,38 @@
   margin-top: 3%;
   display: flex;
   justify-content: space-between;
+  margin: 2% auto;
 }
 
 .block {
   background: #ffffff;
   border: 1px solid #eaebed;
   border-radius: 12px;
-  width: 448px;
-  height: 136px;
-  padding: 3%;
+  width: 450px;
+  padding: 7%;
 }
 
-.block h2 {
+.block h1 {
   font: 600 20px "Inter";
   color: #5e96fc;
-  margin-bottom: 5%;
 }
 .block p {
   font: 400 16px "Inter";
   color: #232134;
-  margin-bottom: 5%;
+  margin-top: 2%;
 }
 
-.flex{
-    display: flex;
+.icon {
+  background-image: url(./assets/M.svg);
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 2%;
+  margin-right: 2%;
 }
 
-.icon{
-    background-image: url(./assets/M.svg);
-    width: 20px;
-    height: 20px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-right: 2%;
+.flex {
+  display: flex;
+  flex-wrap: wrap;
 }

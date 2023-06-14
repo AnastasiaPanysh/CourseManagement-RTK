@@ -1,13 +1,62 @@
 [
-  { "id": "6893c700-05ec-11ee-bb18-9f0669c4ae4f", "name": "hanna" },
-  { "id": "86fc1c90-0625-11ee-9e8f-2f57a48a6143", "test": "MYTESTIK" },
-  { "id": "a37f10e0-093e-11ee-871a-638ecb0449ea", "email": "test@gmail", "pwd": "password" },
-  { "id": "7b8e7810-0942-11ee-9804-69395d65558f", "email": "test@gmail", "pwd": "password" },
-  { "id": "7bb67270-0942-11ee-9804-69395d65558f", "email": "test@gmail", "pwd": "password" },
-  { "id": "efbb8700-0942-11ee-b92b-756dea11da86", "email": "test@gmail", "pwd": "password" },
-  { "id": "2c3bf610-0943-11ee-ab3f-8b6cdfac203b", "email": "test@gmail", "pwd": "password" },
-  { "id": "2d0ed670-0943-11ee-bb97-6326a53e716a", "email": "test@gmail", "pwd": "password" },
-  { "id": "2d139160-0943-11ee-bb97-6326a53e716a", "email": "test@gmail", "pwd": "password" },
-  { "id": "2d160260-0943-11ee-bb97-6326a53e716a", "email": "test@gmail", "pwd": "password" },
-  { "id": "c26bb9d0-0944-11ee-ab6d-af4b883b8db8", "email": "test@gmail", "pwd": "password" }
+  {
+    "id": "999ce090-0aa9-11ee-b58e-33f7f6b62e98",
+    "name": "C# Couse",
+    "description": "В течение курса студенты ознакомятся с ...",
+    "location": "Минск"
+  },
+  {
+    "id": "9afdf730-0aa9-11ee-bd39-4ff0adb2335f",
+    "name": "C# Couse",
+    "description": "В течение курса студенты ознакомятся с ...",
+    "location": "Минск"
+  },
+  {
+    "id": "9c8a6390-0aa9-11ee-b2ea-cb21f9a1d596",
+    "name": "C# Couse",
+    "description": "В течение курса студенты ознакомятся с ...",
+    "location": "Минск"
+  },
+  {
+    "id": "a293a580-0aa9-11ee-b327-7f3bd6d18570",
+    "name": "JavaScript Couse",
+    "description": "В течение курса студенты ознакомятся с ...",
+    "location": "Минск"
+  },
+  {
+    "id": "b687adc0-0aa9-11ee-82cb-2fc31209f315",
+    "name": "C# Couse",
+    "description": "В течение курса студенты ознакомятся с ...",
+    "location": "Гродно"
+  },
+  {
+    "id": "bd8ab900-0aa9-11ee-9e79-8f9075f193f1",
+    "name": "JavaScript Couse",
+    "description": "В течение курса студенты ознакомятся с ...",
+    "location": "Гродно"
+  },
+  {
+    "id": "c100a5e0-0aa9-11ee-a4d3-fd52edabd570",
+    "name": "JavaScript Couse",
+    "description": "В течение курса студенты ознакомятся с ...",
+    "location": "Минск"
+  },
+  {
+    "id": "cacc1ff0-0aa9-11ee-b3c5-830d9a508ed9",
+    "name": "JavaScript Couse",
+    "description": "В течение курса студенты ознакомятся с ...",
+    "location": "Вильнюс"
+  },
+  {
+    "id": "cf9f79f0-0aa9-11ee-9f7e-13bae0646046",
+    "name": "JavaScript Couse",
+    "description": "В течение курса студенты ознакомятся с ...",
+    "location": "Рига"
+  },
+  {
+    "id": "d4d71400-0aa9-11ee-81cb-b98e431d512e",
+    "name": "JavaScript Couse",
+    "description": "В течение курса студенты ознакомятся с ...",
+    "location": "Варшава"
+  }
 ]

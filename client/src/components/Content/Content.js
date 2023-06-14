@@ -1,11 +1,16 @@
-import Item from './Item'
+import React from 'react'
+import Item from "./Item";
+import style from './style.module.css'
+import { useGetCourseQuery } from '../../services/course'
 
 function Content() {
+    const { data: dataAll } =  useGetCourseQuery()
     return (
-        <>
-            <Item></Item>
-        </>
-    )
+        <div  className={style.flex}>
+            {dataAll?.map((el) => <Item key={el.id} name={el.name} description={el.description} location={el.location} />)}
+        </div>
+    );
 }
 
-export default Content
+
+export default Content;
