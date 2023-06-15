@@ -1,18 +1,25 @@
-import React from 'react';
+import React, { useState } from "react"
 import { Input, Button } from '@mantine/core';
 import style from './style.module.css';
 import { IconSearch } from '@tabler/icons-react';
 
-function Search() {
+function Search({ setSearchString }) {
+  const [input, setInput] = useState('')
+
+  function showValueInput() {
+    setSearchString(input)
+  }
+
   return (
     <div className={style['wrapper']}>
       <Input
+        onChange={(event) => setInput(event.target.value)}
         className={style.inp}
         size="md"
         icon={<IconSearch />}
         placeholder="Введите название курса"
         rightSection={
-          <Button className={style.btn}>Поиск</Button>
+          <Button onClick={showValueInput} className={style.btn}>Поиск</Button>
         }
       />
     </div>
