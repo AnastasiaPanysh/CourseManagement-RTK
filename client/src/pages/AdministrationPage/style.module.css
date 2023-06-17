@@ -1,0 +1,11 @@
+.navigation {
+  width: 50%;
+  margin: 10% auto 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  font: 700 20px "Inter";
+  color: #232134;
+}

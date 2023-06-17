@@ -6,7 +6,8 @@ import Item from './Item';
 
 function Content({ searchString }) {
   const { data: dataAll } = useGetCourseQuery();
-
+  console.log(dataAll);
+  
   const [currentPage, setCurrentPage] = useState(1);
   const pageSizeRef = useRef(6);
   const [list, setList] = useState([]);
