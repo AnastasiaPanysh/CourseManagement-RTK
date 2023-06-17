@@ -1,5 +1,5 @@
 import { Input, Button } from '@mantine/core';
-import style from './style.module.css'
+
 import {useCreateCourseMutation} from '../../services/course'
 import React, { useState } from 'react';
 
