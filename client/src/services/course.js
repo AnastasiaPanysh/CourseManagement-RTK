@@ -18,8 +18,8 @@ export const courseApi = createApi({
             }),
         }),
         updateCourse: builder.mutation({
-            query: (id, data) => ({
-                url: `course/${id}`,
+            query: (data) => ({
+                url: `course/${data.id}`,
                 method: 'PUT',
                 body: data
             }),

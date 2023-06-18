@@ -35,6 +35,7 @@ class CourseController {
     try {
       const { id } = req.params;
       const course = req.body;
+      console.log(course);
       this.courseService.updateCourse(id, course)
       res.status(200).send(SuccessType.COURSE_UPDATE_SUCCESS);
     } catch (error) {
