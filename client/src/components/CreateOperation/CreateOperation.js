@@ -18,8 +18,11 @@ function CreateOperation() {
 
     return (
         <div className={style.wrapper}>
+            <h2>Курс</h2>
             <Input name='name' onChange={changeInputValue} placeholder='course name' />
+            <h2>Описание</h2>
             <Input name='description' onChange={changeInputValue} placeholder='course description' />
+            <h2>Локация</h2>
             <Input name='location' onChange={changeInputValue} placeholder='course location' />
             <Button onClick={sendRequest}>применить</Button>
 

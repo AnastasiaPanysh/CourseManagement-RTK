@@ -9,3 +9,6 @@ p {
   font: 700 20px "Inter";
   color: #232134;
 }
+p:hover {
+  color: #5E96FC;
+}

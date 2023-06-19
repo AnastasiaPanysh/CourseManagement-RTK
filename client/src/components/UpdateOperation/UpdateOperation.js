@@ -20,10 +20,10 @@ function UpdateOperation() {
 
     return (
         <div className={style.wrapper}>
-            <div>
+            <div className={style.before}>
+                <h2>До</h2>
                 <Select
                     name='id'
-                    label="ДО"
                     placeholder="Pick one"
                     data={courses?.map((el) => el.id) ?? []}
                     onChange={(event) => setValue({ ...value, id: event })}
@@ -35,8 +35,8 @@ function UpdateOperation() {
                 </div> : null}
 
             </div>
-            <div>
-                <h1>ПОСЛЕ</h1>
+            <div className={style.after} >
+                <h2>После</h2>
                 <Input onChange={changeValue} name='name' placeholder='course name' />
                 <Input onChange={changeValue} name='description' placeholder='course description' />
                 <Input onChange={changeValue} name='location' placeholder='course location' />
