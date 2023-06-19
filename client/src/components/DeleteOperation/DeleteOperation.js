@@ -26,13 +26,13 @@ function DeleteOperation() {
                 onChange={(event) => setValue({ ...value, id: event })}
             />
 
-            <Button onClick={sendRequest}>Удалить</Button>
             {foundCourse ? <div>
                 <Input value={foundCourse?.name} disabled />
                 <Input value={foundCourse?.description} disabled />
                 <Input value={foundCourse?.location} disabled />
             </div> : null}
 
+            <Button onClick={sendRequest}>Удалить</Button>
         </div>
     )
 }
