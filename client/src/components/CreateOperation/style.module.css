@@ -1,6 +1,6 @@
 .wrapper {
   width: 500px;
-  height: 270px;
+  height: 300px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -13,6 +13,3 @@ h2 {
 }
 
 
-button{
-    margin-top: 5%;
-}
