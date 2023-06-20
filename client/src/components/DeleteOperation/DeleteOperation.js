@@ -11,7 +11,7 @@ function DeleteOperation() {
     console.log('ggg', foundCourse);
 
     function sendRequest() {
-        deleteCourse(value)
+        deleteCourse(value.id)
         window.location.reload()
     }
 
@@ -26,7 +26,7 @@ function DeleteOperation() {
                 onChange={(event) => setValue({ ...value, id: event })}
             />
 
-            {foundCourse ? <div>
+            {foundCourse?.id ? <div>
                 <Input value={foundCourse?.name} disabled />
                 <Input value={foundCourse?.description} disabled />
                 <Input value={foundCourse?.location} disabled />

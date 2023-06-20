@@ -6,7 +6,7 @@ import { useGetCourseQuery, useUpdateCourseMutation, useGetCourseByIdQuery } fro
 function UpdateOperation() {
     const [updateCourse] = useUpdateCourseMutation()
     const [value, setValue] = useState({ id: '', name: '', description: '', location: '' })
-    const { data: foundCourse } = useGetCourseByIdQuery(value?.id)
+    const { data: foundCourse } = useGetCourseByIdQuery(value.id)
     const { data: courses } = useGetCourseQuery()
     console.log('ggg', foundCourse);
     function changeValue(event) {
@@ -28,7 +28,7 @@ function UpdateOperation() {
                     data={courses?.map((el) => el.id) ?? []}
                     onChange={(event) => setValue({ ...value, id: event })}
                 />
-                {foundCourse ? <div>
+                {foundCourse?.id ? <div>
                     <Input value={foundCourse?.name} disabled />
                     <Input value={foundCourse?.description} disabled />
                     <Input value={foundCourse?.location} disabled />
